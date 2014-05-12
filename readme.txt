@@ -1,4 +1,4 @@
-=== adminbar manager ===
+=== Adminbar Manager ===
 Contributors: sarankumar
 Tags: adminbar menu,admin bar,toolbar
 Requires at least: 2.8
