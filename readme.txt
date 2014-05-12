@@ -1,6 +1,6 @@
-=== Adminbar Manager ===
+=== Adminbar Default Menu Manager ===
 Contributors: sarankumar
-Tags: adminbar menu,admin bar,toolbar
+Tags: adminbar menu,admin bar,toolbar,remove admin bar menu.change adminbar color
 Requires at least: 2.8
 Tested up to: 3.9
 
