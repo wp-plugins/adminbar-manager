@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Adminbar Manager
-Plugin URI: http://www.yatramantra.com/
+Plugin URI: http://wordpress.org/plugins/adminbar-manager/
 Description: Remove unwanted menus from adminbar(toolbar).
 Author: sarankumar
-Author URI: http://yatramantra.com/
+Author URI: https://www.facebook.com/zarankumar
 Version: 1.0
 */
 class ABMC_options
