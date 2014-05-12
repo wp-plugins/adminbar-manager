@@ -50,7 +50,7 @@ class ABMC_options
 				add_settings_field('ABMC_comments','Remove Comments Link:',array($this,'ABMC_comments_setting'),__FILE__,'ABMC_section_main');
 				add_settings_field('ABMC_newcontent','Remove New Content:',array($this,'ABMC_newcontent_setting'),__FILE__,'ABMC_section_main');
 				add_settings_field('ABMC_secondary','Remove Secondary Navigation:',array($this,'ABMC_secondary_setting'),__FILE__,'ABMC_section_main');
-				add_settings_field('ABMC_desable','Desable Adminbar for all users :',array($this,'ABMC_desable_setting'),__FILE__,'ABMC_section_main');
+				//add_settings_field('ABMC_desable','Desable Adminbar for all users :',array($this,'ABMC_desable_setting'),__FILE__,'ABMC_section_main');
 
 				add_settings_field('ABMC_color','Admin Bar Color:',array($this,'ABMC_color_setting'),__FILE__,'ABMC_section_main');
 				
@@ -104,13 +104,7 @@ class ABMC_options
 						else 
 						echo "<input type='checkbox' name='ABMC_options[ABMC_secondary]' value='1'/>";
 				}
-		public function ABMC_desable_setting()
-				{
-				if(isset($this->options['ABMC_desable']) && $this->options['ABMC_desable']==1 )
-						echo "<input type='checkbox' name='ABMC_options[ABMC_desable]' value='1' checked/>";
-						else 
-						echo "<input type='checkbox' name='ABMC_options[ABMC_desable]' value='1'/>";
-				}		
+		
 		public function ABMC_color_setting()
 				{
 				echo "<input type='text' name='ABMC_options[ABMC_color]' value='{$this->options['ABMC_color']}'/>";
@@ -153,8 +147,7 @@ ABMC_options::add_menu_page();
 				$wp_toolbar->remove_node('new-content');
 			if(isset($options['ABMC_secondary']) &&$options['ABMC_secondary']==1)
 	   			$wp_toolbar->remove_node('top-secondary');
-			if(isset($options['ABMC_desable']) &&$options['ABMC_desable']==1)
-	   			show_admin_bar(false);
+			
 
 }
 function themeslug_enqueue_style()
