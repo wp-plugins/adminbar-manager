@@ -7,7 +7,7 @@ Tested up to: 3.9
 Remove default adminbar menus and change color.
 
 == Description ==
-Plugin help to remove default menus from adminbar/toolbar (wordpress logo,sitename,comments,updates,loginout etc) as desired.Also  you can change the color of the adminbar for frontend.
+Plugin help to remove default admin bar menus (wordpress logo,sitename,comments,updates,loginout etc) .Also  you can change the color of the adminbar for frontend.
 
 == Installation ==
 1. Upload zip to the `/wp-content/plugins/` directory.
