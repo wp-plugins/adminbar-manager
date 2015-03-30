@@ -2,9 +2,9 @@
 Contributors: sarankumar
 Tags: adminbar menu,admin bar,toolbar,remove admin bar menu.change adminbar color
 Requires at least: 2.8
-Tested up to: 3.9
+Tested up to: 4.1.1
 
-Remove default adminbar menus and change color.
+Remove some default adminbar menus like wordpress logo,credits etc.
 
 == Description ==
 Plugin help to remove some default admin bar menus .wordpress logo,sitename,comments,updates,loginout etc can be easily removed. Also  you can change the color of the adminbar for frontend.Clean code and efficient.
@@ -28,9 +28,10 @@ Where is the settings page?
 under dashboard \"setting page\" you can find the  settings for the plugin.
 
 == Screenshots ==
-1. default adminbar
-2. using plugin settings
-3. setting page
+1. Default adminbar menus.
+2. Removed wordpress logo and comments etc from admin bar.
+3. Plugin settings.
+4. Change admin bar color at frontend.
 
 == Changelog ==
 initial release
